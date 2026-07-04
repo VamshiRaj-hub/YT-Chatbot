@@ -1,0 +1,4 @@
+[server]
+# Disable file watcher to suppress torchvision/transformers noisy warnings.
+# Hot-reload won't work, but the app runs cleanly.
+fileWatcherType = "none"
