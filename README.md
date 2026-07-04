@@ -15,13 +15,9 @@ Built with **Python 3.12+**, **LangChain**, **Streamlit**, **Groq (LLaMA 3.3 70B
 - 🧠 **HuggingFace embeddings** (`all-MiniLM-L6-v2`) — runs locally, no API key needed
 - 🗃️ **Persistent ChromaDB** with **MMR retrieval** (top-5 from pool of 30) for diverse chunks
 - 🤖 **Dual LLM support** — switch between **Groq LLaMA 3.3 70B** and **Gemini 2.5 Flash** from the UI
-- 🔄 **History-aware retrieval** — multi-turn conversations work correctly
-- 💬 **Natural conversational answers** — no robotic "according to the transcript" phrasing
-- 🌐 **Hybrid answering** — attempts general knowledge questions but primarily optimised for video Q&A
 - 📄 **Expandable source chunks** — see exactly what the model used
 - 🔁 **Duplicate video detection** — avoids re-embedding the same video
 - 🧹 **Clear DB / Clear Chat** buttons
-- 🎨 **Modern dark sidebar UI** with progress bar during processing
 - 🔒 **Input sanitisation** — HTML-escaped chunk display, API key hashing in session state
 
 ---
