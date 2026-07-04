@@ -17,7 +17,7 @@ Built with **Python 3.12+**, **LangChain**, **Streamlit**, **Groq (LLaMA 3.3 70B
 - 🤖 **Dual LLM support** — switch between **Groq LLaMA 3.3 70B** and **Gemini 2.5 Flash** from the UI
 - 🔄 **History-aware retrieval** — multi-turn conversations work correctly
 - 💬 **Natural conversational answers** — no robotic "according to the transcript" phrasing
-- 🌐 **General question support** — answers both video-specific and general knowledge questions
+- 🌐 **Hybrid answering** — attempts general knowledge questions but primarily optimised for video Q&A
 - 📄 **Expandable source chunks** — see exactly what the model used
 - 🔁 **Duplicate video detection** — avoids re-embedding the same video
 - 🧹 **Clear DB / Clear Chat** buttons
@@ -163,12 +163,6 @@ No code changes needed. Simply:
 
 ---
 
-## 📸 Screenshots
-
-> *(Add screenshots to the `assets/` folder and link them here)*
-
----
-
 ## 🔧 Troubleshooting
 
 | Problem | Solution |
@@ -198,12 +192,6 @@ No code changes needed. Simply:
 - [ ] Docker containerisation
 - [ ] Streaming token-by-token output
 - [ ] Authentication for multi-user deployments
-
----
-
-## 🛡️ License
-
-MIT License. See `LICENSE` for details.
 
 ---
 
